@@ -27,7 +27,8 @@ class Owner
     @@all = []
   end
   
-  def cats 
-    @cats
+  def cats(cats) 
+    @cats << cats
+    cats.owner = self
   end
 end
