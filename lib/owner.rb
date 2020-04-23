@@ -28,6 +28,6 @@ class Owner
   end
   
   def cats 
-    self.cats 
+    @cats
   end
 end
