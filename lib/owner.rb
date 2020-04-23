@@ -28,6 +28,6 @@ class Owner
   end
   
   def cats
-    @cats << @cats.self
+    @cats << self
   end
 end
