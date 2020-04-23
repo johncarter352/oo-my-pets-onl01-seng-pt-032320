@@ -29,6 +29,5 @@ class Owner
   
   def cats
     @cats << self
-    cat.owner = self
   end
 end
