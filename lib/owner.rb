@@ -10,7 +10,9 @@ class Owner
   end
   
   def self.all 
-    @
+    @all
+  end
+  
   def say_species
     puts "I am a #{self.species}"
   end
