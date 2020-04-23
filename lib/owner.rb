@@ -9,8 +9,10 @@ class Owner
   end
   
   def name 
-    @name
+    if self.name 
+      "Victoria"
   end
+end
     
   
   
