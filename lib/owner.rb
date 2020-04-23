@@ -5,9 +5,6 @@ class Owner
     @name = name
   end
 
-def name 
-  puts "Victoria"
-end
   
   
 end
