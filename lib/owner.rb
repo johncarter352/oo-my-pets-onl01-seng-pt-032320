@@ -22,7 +22,8 @@ def self.count
 end
 
 def self.reset_all
-  self
+  self.all.reset 
+end
 
   
   
