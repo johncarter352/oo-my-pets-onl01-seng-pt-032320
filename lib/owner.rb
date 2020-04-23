@@ -37,5 +37,5 @@ class Owner
   end
   
   def buy_cat
-    
+    @cat << self
 end
