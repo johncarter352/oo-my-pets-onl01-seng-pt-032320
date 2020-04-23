@@ -1,19 +1,11 @@
 class Owner
+  attr_accessor
   
   def initialize(name)
     @name = name 
+    self.name = "Victoria"
   end
-  
-  def name=(name)
-    @name = "Victoria"
-  end
-  
-  def name 
-    if self.name 
-      "Victoria"
-  end
-end
-    
+
   
   
 end
