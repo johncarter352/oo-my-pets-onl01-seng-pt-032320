@@ -70,6 +70,5 @@ class Owner
     total c = self.dogs.count
     "I have #{totald} dog(s), and #{totalc} cat(s).")
   end
-    
-    
+  
 end
