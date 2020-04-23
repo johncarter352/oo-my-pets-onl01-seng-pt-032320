@@ -8,8 +8,9 @@ class Owner
   
   def say_species
     puts "I am a #{@species}"
-    say_species
   end
+  say_species
+end
 
   
   
