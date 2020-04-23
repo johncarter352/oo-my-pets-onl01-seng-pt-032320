@@ -13,17 +13,17 @@ class Owner
     "I am a #{@species}."
   end
 
-def self.all
-  @@all 
-end
+  def self.all
+    @@all 
+  end
 
-def self.count
-  self.all.count
-end
+  def self.count
+    self.all.count
+  end
 
-def self.reset_all
-  self.all.reset 
-end
+  def self.reset_all
+    self.all.reset 
+  end
 
   
   
