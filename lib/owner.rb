@@ -68,7 +68,7 @@ class Owner
   def list_pets
     totald = self.dogs.count
     total c = self.dogs.count
-    "I have #{totald} dog(s), and #{totalc} cat(s).")
+    "I have #{totald} dog(s), and #{totalc} cat(s)."
   end
   
 end
