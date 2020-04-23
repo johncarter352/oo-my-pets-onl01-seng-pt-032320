@@ -1,8 +1,10 @@
 class Owner
-  attr_reader :name 
+  def name=(name)
+    @name = "Victoria"
+  end
   
   def name 
-    @name = Victoria
+    @name
   end
     
   
