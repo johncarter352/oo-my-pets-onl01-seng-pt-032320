@@ -37,6 +37,6 @@ class Owner
   end
   
   def buy_cat
-    @cats << self
+    owner.cats
   end
 end
